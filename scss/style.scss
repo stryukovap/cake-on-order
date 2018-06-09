@@ -10,14 +10,18 @@ body {
     @media screen and (max-width: 1366px) {
         max-width: 728px;
     }
+    @media screen and (max-width: 320px) {
+        max-width: 282px;
+    }
 }
 
 .header {
     position: relative;
-    z-index: 1;
     overflow: hidden;
     &__row-wrapper {
         background: #ffffff;
+        position: relative;
+        z-index: 3;
     }
     &__row {
         padding-top: 105px;
@@ -27,6 +31,10 @@ body {
         @media screen and (max-width: 1366px) {
             padding-top: 25px;
             padding-bottom: 25px;
+        }
+        @media screen and (max-width: 320px) {
+            padding-top: 14px;
+            padding-bottom: 14px;
         }
     }
     &__logo {
@@ -44,7 +52,12 @@ body {
             font-size: 19.5px;
             line-height: 1.67;
             letter-spacing: 1px;
-            text-align: left;
+            color: #000000;
+        }
+        @media screen and (max-width: 320px) {
+            font-size: 16.5px;
+            line-height: 1.97;
+            letter-spacing: 0.8px;
             color: #000000;
         }
     }
@@ -57,6 +70,16 @@ body {
             height: 18px;
             width: 26px;
             margin-left: 26px;
+        }
+        @media screen and (max-width: 320px) {
+            background-image: url(../img/menu_26x18.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 26px 18px;
+            height: 18px;
+            width: 26px;
+            margin: 0;
+            margin-left: auto;
         }
     }
     &__list {
@@ -94,6 +117,9 @@ body {
         &--tel {
             margin-left: auto;
             font-weight: bold;
+            @media screen and (max-width: 320px) {
+                display: none;
+            }
         }
         &--promo {
             color: #ffffff;
@@ -104,6 +130,11 @@ body {
             display: inline-block;
             @media screen and (max-width: 1366px) {
                 margin-top: 30px;
+            }
+            @media screen and (max-width: 320px) {
+                margin-top: 42px;
+                margin-left: 25px;
+                margin-right: 25px;
             }
             &:hover {
                 color: #ffffff;
@@ -118,6 +149,14 @@ body {
         @media screen and (max-width: 1366px) {
             margin-top: 0;
         }
+        @media screen and (max-width: 320px) {
+            margin-top: 0;
+            padding-bottom: 55px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
         &::before {
             content: "";
             display: block;
@@ -131,12 +170,21 @@ body {
             top: -150px;
             right: -230px;
             line-height: 1;
+            z-index: 1;
             @media screen and (max-width: 1366px) {
                 background-size: 549px 548px;
                 width: 549px;
                 height: 548px;
                 top: 10px;
                 right: -120px;
+            }
+            @media screen and (max-width: 320px) {
+                background-size: 368px 367px;
+                width: 368px;
+                height: 367px;
+                top: -180px;
+                left: -45px;
+                right: 0;
             }
         }
     }
@@ -154,11 +202,19 @@ body {
         color: #2e2829;
         max-width: 400px;
         position: relative;
+        z-index: 2;
         @media screen and (max-width: 1366px) {
             font-size: 53.5px;
             line-height: 1;
             letter-spacing: 4px;
             padding-top: 92px;
+        }
+        @media screen and (max-width: 320px) {
+            text-align: center;
+            font-size: 40px;
+            line-height: 1;
+            letter-spacing: 3px;
+            padding-top: 134px;
         }
         &::before {
             content: "";
@@ -177,6 +233,9 @@ body {
                 top: 0;
                 height: 0;
             }
+            @media screen and (max-width: 320px) {
+                display: none;
+            }
         }
         &::after {
             content: "";
@@ -194,6 +253,9 @@ body {
                 height: 38px;
                 top: 0;
                 height: 0;
+            }
+            @media screen and (max-width: 320px) {
+                display: none;
             }
         }
     }
@@ -215,6 +277,12 @@ body {
         @media screen and (max-width: 1366px) {
             margin-top: 10px;
         }
+        @media screen and (max-width: 320px) {
+            margin-top: 10px;
+            font-size: 23.5px;
+            line-height: 3.32;
+            text-align: center;
+        }
         &::before {
             content: "";
             display: block;
@@ -232,6 +300,15 @@ body {
                 top: 0;
                 height: 0;
             }
+            @media screen and (max-width: 320px) {
+                display: none;
+            }
+        }
+    }
+    &__mobile-wrapper{
+        @media screen and (max-width: 320px) {
+            display: flex;
+            flex-direction: column-reverse;
         }
     }
     &__advantage {
@@ -241,6 +318,10 @@ body {
             justify-content: flex-start;
             @media screen and (max-width: 1366px) {
                 margin-top: 160px;
+            }
+            @media screen and (max-width: 320px) {
+                margin-top: 30px;
+                flex-direction: column;
             }
         }
         font-family: 'Roboto',
@@ -258,9 +339,17 @@ body {
         @media screen and (max-width: 1366px) {
             margin-right: 50px;
         }
+        @media screen and (max-width: 320px) {
+            margin: 0;
+            padding-left: 45px;
+        }
         &--ingredients {
             position: relative;
             max-width: 100px;
+            @media screen and (max-width: 320px) {
+                margin-top: 0;
+                max-width: 100%;
+            }
             &::before {
                 content: "";
                 display: block;
@@ -273,11 +362,20 @@ body {
                 position: absolute;
                 bottom: -5px;
                 left: 0;
+                @media screen and (max-width: 320px) {
+                    background-size: 33px 33px;
+                    bottom: 0;
+                    left: 0;
+                }
             }
         }
         &--delivery {
             position: relative;
             max-width: 200px;
+            @media screen and (max-width: 320px) {
+                margin-top: 30px;
+                max-width: 100%;
+            }
             &::before {
                 content: "";
                 display: block;
@@ -290,6 +388,11 @@ body {
                 position: absolute;
                 bottom: -5px;
                 left: 0;
+                @media screen and (max-width: 320px) {
+                    background-size: 33px 32px;
+                    bottom: 0;
+                    left: 0;
+                }
             }
         }
     }
