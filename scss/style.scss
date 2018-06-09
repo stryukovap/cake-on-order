@@ -10,7 +10,7 @@ body {
     @media screen and (max-width: 1366px) {
         max-width: 728px;
     }
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 768px) {
         max-width: 282px;
     }
 }
@@ -32,7 +32,7 @@ body {
             padding-top: 25px;
             padding-bottom: 25px;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             padding-top: 14px;
             padding-bottom: 14px;
         }
@@ -54,7 +54,7 @@ body {
             letter-spacing: 1px;
             color: #000000;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             font-size: 16.5px;
             line-height: 1.97;
             letter-spacing: 0.8px;
@@ -71,7 +71,7 @@ body {
             width: 26px;
             margin-left: 26px;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             background-image: url(../img/menu_26x18.png);
             background-repeat: no-repeat;
             background-position: center center;
@@ -117,7 +117,7 @@ body {
         &--tel {
             margin-left: auto;
             font-weight: bold;
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 display: none;
             }
         }
@@ -131,7 +131,7 @@ body {
             @media screen and (max-width: 1366px) {
                 margin-top: 30px;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 margin-top: 42px;
                 margin-left: 25px;
                 margin-right: 25px;
@@ -149,7 +149,7 @@ body {
         @media screen and (max-width: 1366px) {
             margin-top: 0;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             margin-top: 0;
             padding-bottom: 55px;
             display: flex;
@@ -178,7 +178,7 @@ body {
                 top: 10px;
                 right: -120px;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 background-size: 368px 367px;
                 width: 368px;
                 height: 367px;
@@ -209,7 +209,7 @@ body {
             letter-spacing: 4px;
             padding-top: 92px;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             text-align: center;
             font-size: 40px;
             line-height: 1;
@@ -233,7 +233,7 @@ body {
                 top: 0;
                 height: 0;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 display: none;
             }
         }
@@ -254,7 +254,7 @@ body {
                 top: 0;
                 height: 0;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 display: none;
             }
         }
@@ -277,7 +277,7 @@ body {
         @media screen and (max-width: 1366px) {
             margin-top: 10px;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             margin-top: 10px;
             font-size: 23.5px;
             line-height: 3.32;
@@ -300,13 +300,13 @@ body {
                 top: 0;
                 height: 0;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 display: none;
             }
         }
     }
     &__mobile-wrapper{
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column-reverse;
         }
@@ -319,7 +319,7 @@ body {
             @media screen and (max-width: 1366px) {
                 margin-top: 160px;
             }
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 margin-top: 30px;
                 flex-direction: column;
             }
@@ -339,14 +339,14 @@ body {
         @media screen and (max-width: 1366px) {
             margin-right: 50px;
         }
-        @media screen and (max-width: 320px) {
+        @media screen and (max-width: 768px) {
             margin: 0;
             padding-left: 45px;
         }
         &--ingredients {
             position: relative;
             max-width: 100px;
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 margin-top: 0;
                 max-width: 100%;
             }
@@ -362,7 +362,7 @@ body {
                 position: absolute;
                 bottom: -5px;
                 left: 0;
-                @media screen and (max-width: 320px) {
+                @media screen and (max-width: 768px) {
                     background-size: 33px 33px;
                     bottom: 0;
                     left: 0;
@@ -372,7 +372,7 @@ body {
         &--delivery {
             position: relative;
             max-width: 200px;
-            @media screen and (max-width: 320px) {
+            @media screen and (max-width: 768px) {
                 margin-top: 30px;
                 max-width: 100%;
             }
@@ -388,7 +388,7 @@ body {
                 position: absolute;
                 bottom: -5px;
                 left: 0;
-                @media screen and (max-width: 320px) {
+                @media screen and (max-width: 768px) {
                     background-size: 33px 32px;
                     bottom: 0;
                     left: 0;

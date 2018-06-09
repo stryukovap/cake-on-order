@@ -16,7 +16,7 @@ body {
     max-width: 728px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 6, ../scss/style.scss */
   .container {
     max-width: 282px;
@@ -48,7 +48,7 @@ body {
     padding-bottom: 25px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 26, ../scss/style.scss */
   .header__row {
     padding-top: 14px;
@@ -77,7 +77,7 @@ body {
     color: #000000;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 40, ../scss/style.scss */
   .header__logo {
     font-size: 16.5px;
@@ -98,7 +98,7 @@ body {
     margin-left: 26px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 64, ../scss/style.scss */
   .header__menu {
     background-image: url(../img/menu_26x18.png);
@@ -156,7 +156,7 @@ body {
   margin-left: auto;
   font-weight: bold;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 117, ../scss/style.scss */
   .header__link--tel {
     display: none;
@@ -177,7 +177,7 @@ body {
     margin-top: 30px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 124, ../scss/style.scss */
   .header__link--promo {
     margin-top: 42px;
@@ -202,7 +202,7 @@ body {
     margin-top: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 145, ../scss/style.scss */
   .header__promo {
     margin-top: 0;
@@ -239,7 +239,7 @@ body {
     right: -120px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 160, ../scss/style.scss */
   .header__promo::before {
     background-size: 368px 367px;
@@ -276,7 +276,7 @@ body {
     padding-top: 92px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 191, ../scss/style.scss */
   .header__title {
     text-align: center;
@@ -308,7 +308,7 @@ body {
     height: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 219, ../scss/style.scss */
   .header__title::before {
     display: none;
@@ -336,7 +336,7 @@ body {
     height: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 240, ../scss/style.scss */
   .header__title::after {
     display: none;
@@ -365,7 +365,7 @@ body {
     margin-top: 10px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 262, ../scss/style.scss */
   .header__description {
     margin-top: 10px;
@@ -396,13 +396,13 @@ body {
     height: 0;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 286, ../scss/style.scss */
   .header__description::before {
     display: none;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 308, ../scss/style.scss */
   .header__mobile-wrapper {
     display: flex;
@@ -435,7 +435,7 @@ body {
     margin-top: 160px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 315, ../scss/style.scss */
   .header__advantage-wrapper {
     margin-top: 30px;
@@ -448,7 +448,7 @@ body {
     margin-right: 50px;
   }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 314, ../scss/style.scss */
   .header__advantage {
     margin: 0;
@@ -460,7 +460,7 @@ body {
   position: relative;
   max-width: 100px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 346, ../scss/style.scss */
   .header__advantage--ingredients {
     margin-top: 0;
@@ -481,7 +481,7 @@ body {
   bottom: -5px;
   left: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 353, ../scss/style.scss */
   .header__advantage--ingredients::before {
     background-size: 33px 33px;
@@ -494,7 +494,7 @@ body {
   position: relative;
   max-width: 200px;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 372, ../scss/style.scss */
   .header__advantage--delivery {
     margin-top: 30px;
@@ -515,7 +515,7 @@ body {
   bottom: -5px;
   left: 0;
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
   /* line 379, ../scss/style.scss */
   .header__advantage--delivery::before {
     background-size: 33px 32px;
