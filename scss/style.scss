@@ -7,17 +7,27 @@ body {
     max-width: 1220px;
     margin: 0 auto;
     outline: 1px solid green;
+    @media screen and (max-width: 1366px) {
+        max-width: 728px;
+    }
 }
 
 .header {
     position: relative;
     z-index: 1;
     overflow: hidden;
+    &__row-wrapper {
+        background: #ffffff;
+    }
     &__row {
         padding-top: 105px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        @media screen and (max-width: 1366px) {
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
     }
     &__logo {
         text-decoration: none;
@@ -30,6 +40,24 @@ body {
         letter-spacing: 1.2px;
         text-align: left;
         color: #2d2829;
+        @media screen and (max-width: 1366px) {
+            font-size: 19.5px;
+            line-height: 1.67;
+            letter-spacing: 1px;
+            text-align: left;
+            color: #000000;
+        }
+    }
+    &__menu {
+        @media screen and (max-width: 1366px) {
+            background-image: url(../img/menu_26x18.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: 26px 18px;
+            height: 18px;
+            width: 26px;
+            margin-left: 26px;
+        }
     }
     &__list {
         padding: 0;
@@ -38,6 +66,9 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @media screen and (max-width: 1366px) {
+            display: none;
+        }
     }
     &__item {
         padding: 0;
@@ -71,6 +102,9 @@ body {
             padding: 15px 67px;
             margin-top: 58px;
             display: inline-block;
+            @media screen and (max-width: 1366px) {
+                margin-top: 30px;
+            }
             &:hover {
                 color: #ffffff;
                 box-shadow: 0px 5px 7.04px 0.96px rgba(255, 0, 67, 0.3);
@@ -81,9 +115,13 @@ body {
         position: relative;
         margin-top: 165px;
         padding-bottom: 250px;
+        @media screen and (max-width: 1366px) {
+            margin-top: 0;
+        }
         &::before {
             content: "";
             display: block;
+            box-shadow: 0px 12px 13.2px 1.8px rgba(255, 21, 66, 0.1);
             background-image: url(../img/tort_header_940x941.png);
             background-repeat: no-repeat;
             background-size: 919px 918px;
@@ -92,6 +130,14 @@ body {
             position: absolute;
             top: -150px;
             right: -230px;
+            line-height: 1;
+            @media screen and (max-width: 1366px) {
+                background-size: 549px 548px;
+                width: 549px;
+                height: 548px;
+                top: 10px;
+                right: -120px;
+            }
         }
     }
     &__title {
@@ -108,18 +154,31 @@ body {
         color: #2e2829;
         max-width: 400px;
         position: relative;
-        &::before{
+        @media screen and (max-width: 1366px) {
+            font-size: 53.5px;
+            line-height: 1;
+            letter-spacing: 4px;
+            padding-top: 92px;
+        }
+        &::before {
             content: "";
             display: block;
             background-image: url(../img/half_a_strawberry_111x110.png);
             background-repeat: no-repeat;
+            background-size: contain;
             width: 111px;
             height: 110px;
             position: absolute;
             top: -130px;
             right: -165px;
+            @media screen and (max-width: 1366px) {
+                width: 72px;
+                height: 71px;
+                top: 0;
+                height: 0;
+            }
         }
-        &::after{
+        &::after {
             content: "";
             display: block;
             background-image: url(../img/raspberries_63x60.png);
@@ -127,8 +186,15 @@ body {
             width: 63px;
             height: 60px;
             position: absolute;
+            background-size: contain;
             top: 70px;
             right: -95px;
+            @media screen and (max-width: 1366px) {
+                width: 40px;
+                height: 38px;
+                top: 0;
+                height: 0;
+            }
         }
     }
     &__description {
@@ -146,7 +212,10 @@ body {
         color: #32313d;
         max-width: 400px;
         position: relative;
-        &::before{
+        @media screen and (max-width: 1366px) {
+            margin-top: 10px;
+        }
+        &::before {
             content: "";
             display: block;
             background-image: url(../img/strawberry_168x119.png);
@@ -154,8 +223,15 @@ body {
             width: 168px;
             height: 119px;
             position: absolute;
+            background-size: contain;
             top: 95px;
             right: -65px;
+            @media screen and (max-width: 1366px) {
+                width: 99px;
+                height: 71px;
+                top: 0;
+                height: 0;
+            }
         }
     }
     &__advantage {
@@ -163,6 +239,9 @@ body {
             margin-top: 146px;
             display: flex;
             justify-content: flex-start;
+            @media screen and (max-width: 1366px) {
+                margin-top: 160px;
+            }
         }
         font-family: 'Roboto',
         sans-serif;
@@ -176,6 +255,9 @@ body {
         color: #000000;
         padding-left: 70px;
         margin-right: 70px;
+        @media screen and (max-width: 1366px) {
+            margin-right: 50px;
+        }
         &--ingredients {
             position: relative;
             max-width: 100px;
