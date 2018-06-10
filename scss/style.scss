@@ -560,7 +560,7 @@ body {
     }
 }
 
-.fas {
+.fa-arrow-right {
     @media screen and (max-width: 1366px) {
         display: none;
     }
@@ -580,6 +580,11 @@ body {
         color: #2d2829;
         margin: 0;
         margin-top: 105px;
+        @media screen and (max-width: 1366px){
+            font-size: 26.5px;
+            line-height: 2.49;
+  letter-spacing: 0.3px;
+        }
     }
     &__description {
         font-family: 'Intro Script R H2 Base', serif;
@@ -590,6 +595,10 @@ body {
         line-height: 2.52;
         letter-spacing: normal;
         color: #32313d;
+        @media screen and (max-width: 1366px){
+            font-size: 23.5px;
+            line-height: 3.32;
+        }
     }
     &__filling {
         background-color: #fff;
@@ -609,6 +618,12 @@ body {
         display: block;
         padding-top: 74px;
         padding-left: 83px;
+        @media screen and (max-width: 1366px){
+            font-size: 37.5px;
+            letter-spacing: 0.4px;
+            padding-top: 44px;
+            padding-left: 45px;
+        }
     }
     &__action {
         // font-family: 'Roboto', sans-serif;
@@ -623,6 +638,12 @@ body {
         display: block;
         margin-top: 16px;
         padding-left: 81px;
+        @media screen and (max-width: 1366px){
+            font-size: 18px;
+            letter-spacing: 0.2px;
+            margin-top: 8px;
+            padding-left: 46px;
+        }
     }
 }
 
@@ -637,7 +658,13 @@ body {
     margin-left: 82px;
     margin-top: 88px;
     height: 390px;
-    margin-bottom: 93px;
+    @media screen and (max-width: 1366px){
+        padding-left: 265px;
+        margin-left: 38px;
+        margin-top: 53px;
+        height: 239px;
+        margin-bottom: 56px;
+    }
     &__arrow {
         position: absolute;
         font-size: 30px;
@@ -661,6 +688,10 @@ body {
         text-align: left;
         color: #2f2f2f;
         margin: 0;
+        @media screen and (max-width: 1366px){
+            font-size: 16.5px;
+  line-height: 2.03;
+        }
     }
     &__description {
         font-size: 18px;
@@ -672,6 +703,11 @@ body {
         text-align: left;
         color: #2f2f2f;
     padding-right: 271px;
+    @media screen and (max-width: 1366px){
+        font-size: 14px;
+  line-height: normal;
+  padding-right: 139px;
+    }
     }
     &__price {
     font-family: 'Playfair Display', serif;
@@ -684,6 +720,10 @@ body {
         text-align: left;
         color: #2f2f2f;
         display: block;
+        @media screen and (max-width: 1366px){
+            font-size: 21.5px;
+  line-height: 1.67;
+        }
     }
     &__link {
         font-size: 13.5px;
@@ -699,6 +739,11 @@ body {
         background-color: #f50049;
         display: inline-block;
         margin-top: 50px;
+        @media screen and (max-width: 1366px){
+            font-size: 9px;
+  line-height: 2.5;
+  margin-top: 26px;
+        }
     }
     &__pagination {
         font-size: 18px;
@@ -711,7 +756,14 @@ body {
         color: rgba(47, 47, 47, 0.7);
         margin-bottom: auto;
         display: block;
-        padding-top: 43px;
+        margin-top: 43px;
         padding-right: 129px;
+        @media screen and (max-width: 1366px){
+            font-size: 11px;
+  line-height: 1.41;
+  margin-top: 15px;
+  padding-right: 70px;
+  padding-bottom: 54px;
+        }
     }
 }

@@ -743,7 +743,7 @@ body {
 
 @media screen and (max-width: 1366px) {
   /* line 563, ../scss/style.scss */
-  .fas {
+  .fa-arrow-right {
     display: none;
   }
 }
@@ -766,7 +766,15 @@ body {
   margin: 0;
   margin-top: 105px;
 }
-/* line 584, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 572, ../scss/style.scss */
+  .order__title {
+    font-size: 26.5px;
+    line-height: 2.49;
+    letter-spacing: 0.3px;
+  }
+}
+/* line 589, ../scss/style.scss */
 .order__description {
   font-family: 'Intro Script R H2 Base', serif;
   font-size: 31px;
@@ -777,14 +785,21 @@ body {
   letter-spacing: normal;
   color: #32313d;
 }
-/* line 594, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 589, ../scss/style.scss */
+  .order__description {
+    font-size: 23.5px;
+    line-height: 3.32;
+  }
+}
+/* line 603, ../scss/style.scss */
 .order__filling {
   background-color: #fff;
   text-align: left;
   display: flex;
   font-family: 'Playfair Display', serif;
 }
-/* line 600, ../scss/style.scss */
+/* line 609, ../scss/style.scss */
 .order__step {
   font-size: 61.5px;
   font-weight: bold;
@@ -797,7 +812,16 @@ body {
   padding-top: 74px;
   padding-left: 83px;
 }
-/* line 613, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 609, ../scss/style.scss */
+  .order__step {
+    font-size: 37.5px;
+    letter-spacing: 0.4px;
+    padding-top: 44px;
+    padding-left: 45px;
+  }
+}
+/* line 628, ../scss/style.scss */
 .order__action {
   font-size: 30px;
   font-weight: bold;
@@ -811,8 +835,17 @@ body {
   margin-top: 16px;
   padding-left: 81px;
 }
+@media screen and (max-width: 1366px) {
+  /* line 628, ../scss/style.scss */
+  .order__action {
+    font-size: 18px;
+    letter-spacing: 0.2px;
+    margin-top: 8px;
+    padding-left: 46px;
+  }
+}
 
-/* line 629, ../scss/style.scss */
+/* line 650, ../scss/style.scss */
 .slider {
   position: relative;
   padding-left: 400px;
@@ -824,25 +857,34 @@ body {
   margin-left: 82px;
   margin-top: 88px;
   height: 390px;
-  margin-bottom: 93px;
 }
-/* line 641, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 650, ../scss/style.scss */
+  .slider {
+    padding-left: 265px;
+    margin-left: 38px;
+    margin-top: 53px;
+    height: 239px;
+    margin-bottom: 56px;
+  }
+}
+/* line 668, ../scss/style.scss */
 .slider__arrow {
   position: absolute;
   font-size: 30px;
   color: #f50049;
 }
-/* line 645, ../scss/style.scss */
+/* line 672, ../scss/style.scss */
 .slider__arrow--left {
   top: 50%;
   left: -60px;
 }
-/* line 649, ../scss/style.scss */
+/* line 676, ../scss/style.scss */
 .slider__arrow--right {
   top: 50%;
   right: 60px;
 }
-/* line 654, ../scss/style.scss */
+/* line 681, ../scss/style.scss */
 .slider__title {
   font-size: 22px;
   font-weight: bold;
@@ -854,7 +896,14 @@ body {
   color: #2f2f2f;
   margin: 0;
 }
-/* line 665, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 681, ../scss/style.scss */
+  .slider__title {
+    font-size: 16.5px;
+    line-height: 2.03;
+  }
+}
+/* line 696, ../scss/style.scss */
 .slider__description {
   font-size: 18px;
   font-weight: normal;
@@ -866,7 +915,15 @@ body {
   color: #2f2f2f;
   padding-right: 271px;
 }
-/* line 676, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 696, ../scss/style.scss */
+  .slider__description {
+    font-size: 14px;
+    line-height: normal;
+    padding-right: 139px;
+  }
+}
+/* line 712, ../scss/style.scss */
 .slider__price {
   font-family: 'Playfair Display', serif;
   font-size: 23.5px;
@@ -879,7 +936,14 @@ body {
   color: #2f2f2f;
   display: block;
 }
-/* line 688, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 712, ../scss/style.scss */
+  .slider__price {
+    font-size: 21.5px;
+    line-height: 1.67;
+  }
+}
+/* line 728, ../scss/style.scss */
 .slider__link {
   font-size: 13.5px;
   font-weight: normal;
@@ -895,7 +959,15 @@ body {
   display: inline-block;
   margin-top: 50px;
 }
-/* line 703, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 728, ../scss/style.scss */
+  .slider__link {
+    font-size: 9px;
+    line-height: 2.5;
+    margin-top: 26px;
+  }
+}
+/* line 748, ../scss/style.scss */
 .slider__pagination {
   font-size: 18px;
   font-weight: normal;
@@ -907,8 +979,18 @@ body {
   color: rgba(47, 47, 47, 0.7);
   margin-bottom: auto;
   display: block;
-  padding-top: 43px;
+  margin-top: 43px;
   padding-right: 129px;
+}
+@media screen and (max-width: 1366px) {
+  /* line 748, ../scss/style.scss */
+  .slider__pagination {
+    font-size: 11px;
+    line-height: 1.41;
+    margin-top: 15px;
+    padding-right: 70px;
+    padding-bottom: 54px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
