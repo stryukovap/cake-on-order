@@ -22,7 +22,8 @@ body {
         position: relative;
         z-index: 3;
         @media screen and (max-width: 1366px) {
-        background: #ffffff;}
+            background: #ffffff;
+        }
     }
     &__row {
         padding-top: 72px;
@@ -161,8 +162,7 @@ body {
         }
         &::before {
             content: "";
-            display: block;
-            // box-shadow: 0px 12px 13.2px 1.8px rgba(255, 21, 66, 0.1);
+            display: block; // box-shadow: 0px 12px 13.2px 1.8px rgba(255, 21, 66, 0.1);
             background-image: url(../img/tort_header_940x941.png);
             background-repeat: no-repeat;
             background-size: 919px 918px;
@@ -401,8 +401,8 @@ body {
 }
 
 .product {
-    &__htitle{
-        font-family: 'Playfair Display', serif;        
+    &__htitle {
+        font-family: 'Playfair Display', serif;
         font-size: 39.5px;
         font-weight: bold;
         font-style: normal;
@@ -411,6 +411,11 @@ body {
         letter-spacing: 0.4px;
         text-align: left;
         color: #2d2829;
+        @media screen and (max-width: 1366px) {
+            font-size: 27.5px;
+            line-height: 1.44;
+            letter-spacing: 0.3px;
+        }
     }
     &__cards {
         display: flex;
@@ -428,26 +433,36 @@ body {
         justify-content: flex-start;
         flex-direction: column;
         margin-top: 45px;
-        &--half{
+        @media screen and (max-width: 1366px) {
+            margin-top: 37px;
+            height: 388px;
+        }
+        &--half {
             height: 304px;
             width: 100%;
+            @media screen and (max-width: 1366px) {
+                height: 184px;
+                &:nth-child(2) {
+                    margin-top: 20px;
+                }
+            }
         }
-        &--classic{
+        &--classic {
             background-image: url(../img/tort_classic_714x672.png);
         }
-        &--muss{
+        &--muss {
             background-image: url(../img/tort_muss_502x323.png);
         }
-        &--marry{
+        &--marry {
             background-image: url(../img/tort_marry_502x324.png);
         }
-        &--man{
+        &--man {
             background-image: url(../img/tort_man_502x324.png);
         }
-        &--woman{
+        &--woman {
             background-image: url(../img/tort_woman_502x324.png);
         }
-        &--child{
+        &--child {
             background-image: url(../img/tort_child_715x671.png);
         }
     }
@@ -464,27 +479,35 @@ body {
         font-size: 22px;
         font-weight: normal;
         font-style: normal;
-        font-stretch: normal;
-        // line-height: 3.34;
+        font-stretch: normal; // line-height: 3.34;
         letter-spacing: normal;
         text-align: left;
         color: #2d2829;
         padding-left: 46px;
         padding-top: 40px;
+        @media screen and (max-width: 1366px) {
+            font-size: 13px;
+            padding-top: 23px;
+            padding-left: 26px;
+        }
     }
     &__value {
         font-family: 'Roboto', sans-serif;
         font-size: 22px;
         font-weight: normal;
         font-style: normal;
-        font-stretch: normal;
-        // line-height: 3.34;
+        font-stretch: normal; // line-height: 3.34;
         letter-spacing: normal;
         text-align: left;
         color: rgba(45, 40, 41, 0.7);
         padding-left: 46px;
         margin-top: 12px;
         display: block;
+        @media screen and (max-width: 1366px){
+            font-size: 13px;
+            padding-left: 26px;
+            margin-top: 6px;
+        }
     }
     &__link {
         text-decoration: none;
@@ -492,8 +515,7 @@ body {
         font-size: 22px;
         font-weight: normal;
         font-style: normal;
-        font-stretch: normal;
-        // line-height: 3.34;
+        font-stretch: normal; // line-height: 3.34;
         letter-spacing: normal;
         text-align: right;
         color: #2d2829;
@@ -501,5 +523,15 @@ body {
         padding-right: 68px;
         margin-top: auto;
         padding-bottom: 31px;
+        @media screen and (max-width: 1366px){
+            font-size: 13px;
+            padding-right: 72px;
+            padding-bottom: 20px;
+        }
+    }
+}
+.fas{
+    @media screen and (max-width: 1366px){
+        display: none;
     }
 }

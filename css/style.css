@@ -39,7 +39,7 @@ body {
     background: #ffffff;
   }
 }
-/* line 27, ../scss/style.scss */
+/* line 28, ../scss/style.scss */
 .header__row {
   padding-top: 72px;
   display: flex;
@@ -47,20 +47,20 @@ body {
   align-items: center;
 }
 @media screen and (max-width: 1366px) {
-  /* line 27, ../scss/style.scss */
+  /* line 28, ../scss/style.scss */
   .header__row {
     padding-top: 25px;
     padding-bottom: 25px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 27, ../scss/style.scss */
+  /* line 28, ../scss/style.scss */
   .header__row {
     padding-top: 14px;
     padding-bottom: 14px;
   }
 }
-/* line 41, ../scss/style.scss */
+/* line 42, ../scss/style.scss */
 .header__logo {
   text-decoration: none;
   font-family: 'Playfair Display', serif;
@@ -74,7 +74,7 @@ body {
   color: #2d2829;
 }
 @media screen and (max-width: 1366px) {
-  /* line 41, ../scss/style.scss */
+  /* line 42, ../scss/style.scss */
   .header__logo {
     font-size: 19.5px;
     line-height: 1.67;
@@ -83,7 +83,7 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 41, ../scss/style.scss */
+  /* line 42, ../scss/style.scss */
   .header__logo {
     font-size: 16.5px;
     line-height: 1.97;
@@ -92,7 +92,7 @@ body {
   }
 }
 @media screen and (max-width: 1366px) {
-  /* line 65, ../scss/style.scss */
+  /* line 66, ../scss/style.scss */
   .header__menu {
     background-image: url(../img/menu_26x18.png);
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 65, ../scss/style.scss */
+  /* line 66, ../scss/style.scss */
   .header__menu {
     background-image: url(../img/menu_26x18.png);
     background-repeat: no-repeat;
@@ -116,7 +116,7 @@ body {
     margin-left: auto;
   }
 }
-/* line 86, ../scss/style.scss */
+/* line 87, ../scss/style.scss */
 .header__list {
   padding: 0;
   margin: 0;
@@ -126,19 +126,19 @@ body {
   align-items: center;
 }
 @media screen and (max-width: 1366px) {
-  /* line 86, ../scss/style.scss */
+  /* line 87, ../scss/style.scss */
   .header__list {
     display: none;
   }
 }
-/* line 97, ../scss/style.scss */
+/* line 98, ../scss/style.scss */
 .header__item {
   padding: 0;
   margin: 0;
   list-style: none;
   margin-right: 44px;
 }
-/* line 103, ../scss/style.scss */
+/* line 104, ../scss/style.scss */
 .header__link {
   text-decoration: none;
   text-transform: uppercase;
@@ -152,22 +152,22 @@ body {
   text-align: left;
   color: #2d2829;
 }
-/* line 115, ../scss/style.scss */
+/* line 116, ../scss/style.scss */
 .header__link:hover {
   color: #f50049;
 }
-/* line 118, ../scss/style.scss */
+/* line 119, ../scss/style.scss */
 .header__link--tel {
   margin-left: auto;
   font-weight: bold;
 }
 @media screen and (max-width: 768px) {
-  /* line 118, ../scss/style.scss */
+  /* line 119, ../scss/style.scss */
   .header__link--tel {
     display: none;
   }
 }
-/* line 125, ../scss/style.scss */
+/* line 126, ../scss/style.scss */
 .header__link--promo {
   color: #ffffff;
   border-radius: 25.5px;
@@ -177,39 +177,39 @@ body {
   display: inline-block;
 }
 @media screen and (max-width: 1366px) {
-  /* line 125, ../scss/style.scss */
+  /* line 126, ../scss/style.scss */
   .header__link--promo {
     margin-top: 30px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 125, ../scss/style.scss */
+  /* line 126, ../scss/style.scss */
   .header__link--promo {
     margin-top: 42px;
     margin-left: 25px;
     margin-right: 25px;
   }
 }
-/* line 140, ../scss/style.scss */
+/* line 141, ../scss/style.scss */
 .header__link--promo:hover {
   color: #ffffff;
   box-shadow: 0px 5px 7.04px 0.96px rgba(255, 0, 67, 0.3);
 }
-/* line 146, ../scss/style.scss */
+/* line 147, ../scss/style.scss */
 .header__promo {
   position: relative;
   margin-top: 165px;
   padding-bottom: 250px;
 }
 @media screen and (max-width: 1366px) {
-  /* line 146, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .header__promo {
     margin-top: 0;
     padding-bottom: 157px;
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 146, ../scss/style.scss */
+  /* line 147, ../scss/style.scss */
   .header__promo {
     margin-top: 0;
     padding-bottom: 55px;
@@ -219,7 +219,7 @@ body {
     text-align: center;
   }
 }
-/* line 162, ../scss/style.scss */
+/* line 163, ../scss/style.scss */
 .header__promo::before {
   content: "";
   display: block;
@@ -235,7 +235,7 @@ body {
   z-index: 1;
 }
 @media screen and (max-width: 1366px) {
-  /* line 162, ../scss/style.scss */
+  /* line 163, ../scss/style.scss */
   .header__promo::before {
     background-size: 549px 548px;
     width: 549px;
@@ -245,7 +245,7 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  /* line 162, ../scss/style.scss */
+  /* line 163, ../scss/style.scss */
   .header__promo::before {
     background-size: 368px 367px;
     width: 368px;
@@ -541,13 +541,21 @@ body {
   text-align: left;
   color: #2d2829;
 }
-/* line 415, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 404, ../scss/style.scss */
+  .product__htitle {
+    font-size: 27.5px;
+    line-height: 1.44;
+    letter-spacing: 0.3px;
+  }
+}
+/* line 420, ../scss/style.scss */
 .product__cards {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* line 420, ../scss/style.scss */
+/* line 425, ../scss/style.scss */
 .product__card {
   width: 51%;
   background-color: #fff;
@@ -560,43 +568,60 @@ body {
   flex-direction: column;
   margin-top: 45px;
 }
-/* line 431, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 425, ../scss/style.scss */
+  .product__card {
+    margin-top: 37px;
+    height: 388px;
+  }
+}
+/* line 440, ../scss/style.scss */
 .product__card--half {
   height: 304px;
   width: 100%;
 }
-/* line 435, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 440, ../scss/style.scss */
+  .product__card--half {
+    height: 184px;
+  }
+  /* line 445, ../scss/style.scss */
+  .product__card--half:nth-child(2) {
+    margin-top: 20px;
+  }
+}
+/* line 450, ../scss/style.scss */
 .product__card--classic {
   background-image: url(../img/tort_classic_714x672.png);
 }
-/* line 438, ../scss/style.scss */
+/* line 453, ../scss/style.scss */
 .product__card--muss {
   background-image: url(../img/tort_muss_502x323.png);
 }
-/* line 441, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 .product__card--marry {
   background-image: url(../img/tort_marry_502x324.png);
 }
-/* line 444, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 .product__card--man {
   background-image: url(../img/tort_man_502x324.png);
 }
-/* line 447, ../scss/style.scss */
+/* line 462, ../scss/style.scss */
 .product__card--woman {
   background-image: url(../img/tort_woman_502x324.png);
 }
-/* line 450, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 .product__card--child {
   background-image: url(../img/tort_child_715x671.png);
 }
-/* line 454, ../scss/style.scss */
+/* line 469, ../scss/style.scss */
 .product__wrapper {
   width: 46%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-/* line 460, ../scss/style.scss */
+/* line 475, ../scss/style.scss */
 .product__title {
   margin: 0;
   padding: 0;
@@ -611,7 +636,15 @@ body {
   padding-left: 46px;
   padding-top: 40px;
 }
-/* line 475, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 475, ../scss/style.scss */
+  .product__title {
+    font-size: 13px;
+    padding-top: 23px;
+    padding-left: 26px;
+  }
+}
+/* line 494, ../scss/style.scss */
 .product__value {
   font-family: 'Roboto', sans-serif;
   font-size: 22px;
@@ -625,7 +658,15 @@ body {
   margin-top: 12px;
   display: block;
 }
-/* line 489, ../scss/style.scss */
+@media screen and (max-width: 1366px) {
+  /* line 494, ../scss/style.scss */
+  .product__value {
+    font-size: 13px;
+    padding-left: 26px;
+    margin-top: 6px;
+  }
+}
+/* line 512, ../scss/style.scss */
 .product__link {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
@@ -640,6 +681,21 @@ body {
   padding-right: 68px;
   margin-top: auto;
   padding-bottom: 31px;
+}
+@media screen and (max-width: 1366px) {
+  /* line 512, ../scss/style.scss */
+  .product__link {
+    font-size: 13px;
+    padding-right: 72px;
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  /* line 533, ../scss/style.scss */
+  .fas {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
