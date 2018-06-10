@@ -19,12 +19,13 @@ body {
     position: relative;
     overflow: hidden;
     &__row-wrapper {
-        background: #ffffff;
         position: relative;
         z-index: 3;
+        @media screen and (max-width: 1366px) {
+        background: #ffffff;}
     }
     &__row {
-        padding-top: 105px;
+        padding-top: 72px;
         display: flex;
         justify-content: flex-start;
         align-items: center;
@@ -148,6 +149,7 @@ body {
         padding-bottom: 250px;
         @media screen and (max-width: 1366px) {
             margin-top: 0;
+            padding-bottom: 157px;
         }
         @media screen and (max-width: 768px) {
             margin-top: 0;
@@ -160,7 +162,7 @@ body {
         &::before {
             content: "";
             display: block;
-            box-shadow: 0px 12px 13.2px 1.8px rgba(255, 21, 66, 0.1);
+            // box-shadow: 0px 12px 13.2px 1.8px rgba(255, 21, 66, 0.1);
             background-image: url(../img/tort_header_940x941.png);
             background-repeat: no-repeat;
             background-size: 919px 918px;
@@ -305,7 +307,7 @@ body {
             }
         }
     }
-    &__mobile-wrapper{
+    &__mobile-wrapper {
         @media screen and (max-width: 768px) {
             display: flex;
             flex-direction: column-reverse;
@@ -395,5 +397,109 @@ body {
                 }
             }
         }
+    }
+}
+
+.product {
+    &__htitle{
+        font-family: 'Playfair Display', serif;        
+        font-size: 39.5px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: 0.4px;
+        text-align: left;
+        color: #2d2829;
+    }
+    &__cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__card {
+        width: 51%;
+        background-color: #fff;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% auto;
+        height: 652px;
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        margin-top: 45px;
+        &--half{
+            height: 304px;
+            width: 100%;
+        }
+        &--classic{
+            background-image: url(../img/tort_classic_714x672.png);
+        }
+        &--muss{
+            background-image: url(../img/tort_muss_502x323.png);
+        }
+        &--marry{
+            background-image: url(../img/tort_marry_502x324.png);
+        }
+        &--man{
+            background-image: url(../img/tort_man_502x324.png);
+        }
+        &--woman{
+            background-image: url(../img/tort_woman_502x324.png);
+        }
+        &--child{
+            background-image: url(../img/tort_child_715x671.png);
+        }
+    }
+    &__wrapper {
+        width: 46%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    &__title {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        // line-height: 3.34;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2d2829;
+        padding-left: 46px;
+        padding-top: 40px;
+    }
+    &__value {
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        // line-height: 3.34;
+        letter-spacing: normal;
+        text-align: left;
+        color: rgba(45, 40, 41, 0.7);
+        padding-left: 46px;
+        margin-top: 12px;
+        display: block;
+    }
+    &__link {
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        // line-height: 3.34;
+        letter-spacing: normal;
+        text-align: right;
+        color: #2d2829;
+        margin-top: auto;
+        padding-right: 68px;
+        margin-top: auto;
+        padding-bottom: 31px;
     }
 }
