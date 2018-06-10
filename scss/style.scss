@@ -417,11 +417,10 @@ body {
             letter-spacing: 0.3px;
             margin-bottom: 17px;
         }
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             font-size: 26.5px;
             text-align: center;
         }
-        
     }
     &__cards {
         display: flex;
@@ -443,7 +442,7 @@ body {
             margin-top: 20px;
             height: 388px;
         }
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             width: 100%;
             height: 120px;
             background-position-y: -8px;
@@ -457,7 +456,7 @@ body {
                     margin-top: 20px;
                 }
             }
-            @media screen and (max-width: 768px){
+            @media screen and (max-width: 768px) {
                 height: 120px;
             }
         }
@@ -485,7 +484,7 @@ body {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             width: 100%;
         }
     }
@@ -507,7 +506,7 @@ body {
             padding-top: 23px;
             padding-left: 26px;
         }
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             font-size: 14.5px;
             padding-top: 13px;
             padding-left: 13px;
@@ -525,12 +524,12 @@ body {
         padding-left: 46px;
         margin-top: 12px;
         display: block;
-        @media screen and (max-width: 1366px){
+        @media screen and (max-width: 1366px) {
             font-size: 13px;
             padding-left: 26px;
             margin-top: 6px;
         }
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             font-size: 14.5px;
             padding-left: 13px;
             margin-top: 7px;
@@ -550,18 +549,169 @@ body {
         padding-right: 68px;
         margin-top: auto;
         padding-bottom: 31px;
-        @media screen and (max-width: 1366px){
+        @media screen and (max-width: 1366px) {
             font-size: 13px;
             padding-right: 72px;
             padding-bottom: 20px;
         }
-        @media screen and (max-width: 768px){
+        @media screen and (max-width: 768px) {
             display: none;
         }
     }
 }
-.fas{
-    @media screen and (max-width: 1366px){
+
+.fas {
+    @media screen and (max-width: 1366px) {
         display: none;
+    }
+}
+
+.order {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    &__title {
+        font-size: 39.5px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.67;
+        letter-spacing: 0.4px;
+        text-align: center;
+        color: #2d2829;
+        margin: 0;
+        margin-top: 105px;
+    }
+    &__description {
+        font-family: 'Intro Script R H2 Base', serif;
+        font-size: 31px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.52;
+        letter-spacing: normal;
+        color: #32313d;
+    }
+    &__filling {
+        background-color: #fff;
+        text-align: left;
+        display: flex;
+    font-family: 'Playfair Display', serif;
+    }
+    &__step {
+        // font-family: 'Roboto', sans-serif;
+        font-size: 61.5px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal; // line-height: 2.5;
+        letter-spacing: 0.6px;
+        text-align: left;
+        color: #f50049;
+        display: block;
+        padding-top: 74px;
+        padding-left: 83px;
+    }
+    &__action {
+        // font-family: 'Roboto', sans-serif;
+        font-size: 30px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1;
+        letter-spacing: 0.3px;
+        text-align: left;
+        color: #f50049;
+        display: block;
+        margin-top: 16px;
+        padding-left: 81px;
+    }
+}
+
+.slider {
+    position: relative;
+    padding-left: 400px;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../img/nachinka_344x390.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: contain;
+    margin-left: 82px;
+    margin-top: 88px;
+    height: 390px;
+    margin-bottom: 93px;
+    &__arrow {
+        position: absolute;
+        font-size: 30px;
+        color: #f50049;
+        &--left{
+            top: 50%;
+            left: -60px;
+        }
+        &--right{
+            top: 50%;
+            right: 60px;
+        }
+    }
+    &__title {
+        font-size: 22px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.48;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #2f2f2f;
+        margin: 0;
+    }
+    &__description {
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.33;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2f2f2f;
+    padding-right: 271px;
+    }
+    &__price {
+    font-family: 'Playfair Display', serif;
+        font-size: 23.5px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 2.51;
+        letter-spacing: normal;
+        text-align: left;
+        color: #2f2f2f;
+        display: block;
+    }
+    &__link {
+        font-size: 13.5px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.96;
+        letter-spacing: normal;
+        text-align: left;
+        color: #fefefe;
+        padding: 10px 62px;
+        border-radius: 25.5px;
+        background-color: #f50049;
+        display: inline-block;
+        margin-top: 50px;
+    }
+    &__pagination {
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.42;
+        letter-spacing: normal;
+        text-align: right;
+        color: rgba(47, 47, 47, 0.7);
+        margin-bottom: auto;
+        display: block;
+        padding-top: 43px;
+        padding-right: 129px;
     }
 }
